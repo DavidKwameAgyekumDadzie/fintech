@@ -1,3 +1,5 @@
+import Link from 'next/Link';
+
 export default function header() {
   return (
     <header className="bg-gray-50">
@@ -6,17 +8,19 @@ export default function header() {
           <input type="text" className="input-text" placeholder="Search..." />
         </div>
         <div className="shrink w-80 sm:order-3 ">
-          <a className="font-bold ">IFG</a>
+          <Link href={'/'}>
+            <h2 className="font-bold ">IFG</h2>
+          </Link>
         </div>
-        <div className="w-96 order-3 flex justify-center">
-          <div className="flex gap-6">
-            <a>Who We Are </a>
-            <a>Working Capital </a>
-            <a>Funding Solutions</a>
-            <a>News</a>
-            <a>Blog</a>
-            <a>Testimonials</a>
-            <a>Contact</a>
+        <div className="w-100 order-3 flex justify-center">
+          <div className="flex  gap-6">
+            <Link href={'/'}>Who We Are </Link>
+            <Link href={'/'}k>Working Capital </Link>
+            <Link href={'/'}>Funding Solutions</Link>
+            <Link href={'/'}>News</Link>
+            <Link href={'/'}>Blog</Link>
+            <Link href={'/'}>Testimonials</Link>
+            <Link href={'/'}>Contact</Link>
           </div>
         </div>
       </div>
