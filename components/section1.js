@@ -11,7 +11,7 @@ export default function section1() {
   SwiperCore.use([Autoplay]);
 
   const bg = {
-    background: "url('/images/woman farming.jpeg') no-repeat",
+    // background: "url('/images/woman farming.jpeg') no-repeat",
     backgroundPosition: 'right',
   };
 

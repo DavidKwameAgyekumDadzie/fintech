@@ -39,7 +39,7 @@ function Post() {
           />
         </Link>
       </div>
-      <div className="info flex justify-center flex-col py-4">
+      <div className="info flex justify-center flex-col py-4 px-5">
         {/* <div className="cat">
           <Link href={'/'} className="text-orange-600 hover:text-orange-800">
             Medical Screening
