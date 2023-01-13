@@ -40,7 +40,7 @@ export default function footer() {
             </div>
           </div>
           <p className="py-5 text-gray-400 text-center">
-            Copyright SHFⒸ2023 All rights reserved
+            Copyright IFGGHⒸ2023 All rights reserved
           </p>
           <p className="text-gray-400 text-center">OPT-IN TO RECEIVE COMMUNICATION</p>
         </div>
