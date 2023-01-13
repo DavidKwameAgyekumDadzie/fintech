@@ -5,16 +5,14 @@ import {
   ImYoutube2,
   ImInstagram,
 } from 'react-icons/im';
-import Newsletter from "./_child/newsletter"
+import Newsletter from './_child/newsletter';
 
 export default function footer() {
-
   const bg = {
     // backgroundImage: "url('/images/SHEFLOGO.jpg')",
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'bottom-left',
   };
-
 
   return (
     <footer className="bg-gray-500" style={bg}>
@@ -42,7 +40,9 @@ export default function footer() {
           <p className="py-5 text-gray-400 text-center">
             Copyright IFGGHⒸ2023 All rights reserved
           </p>
-          <p className="text-gray-400 text-center">OPT-IN TO RECEIVE COMMUNICATION</p>
+          <p className="text-gray-400 text-center">
+            <Link href={'/'}>OPT-IN TO RECEIVE COMMUNICATION</Link>
+          </p>
         </div>
       </div>
     </footer>
